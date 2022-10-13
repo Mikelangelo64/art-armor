@@ -3100,6 +3100,7 @@ section {
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 @media (min-width: 1200px) {
   .inner-video__play {
