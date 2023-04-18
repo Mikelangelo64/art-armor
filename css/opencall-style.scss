@@ -225,6 +225,10 @@
         }
     }
 
+    span {
+        font-size: px-to-rem(12);
+    }
+
     //.form-opencall__inputs 
     &__inputs {
         display: grid;

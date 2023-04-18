@@ -30,32 +30,43 @@
           </button>
 
           <div class="popup-opencall__content">
-            <div class="popup-opencall__title">
-              <p>Дякуємо</p>
-            </div>
-
             <form action="post" class="form-opencall">
               <div class="form-opencall__inputs">
                 <div>
+                  <span>Full name</span>
                   <input type="text" name="name" placeholder="Full name">
                 </div>
                 <div>
+                  <span>Describe the idea for your art object</span>
                   <input type="text" name="idea" placeholder="Describe the idea for your art object">
                 </div>
                 <div>
+                  <span>Email</span>
                   <input type="email" name="email" placeholder="Email">
                 </div>
                 <div>
+                  <span>Send sketches of the art object</span>
                   <input type="text" name="sketch" placeholder="Send sketches of the art object">
                 </div>
-                <div>
-                  <input type="text" name="country" placeholder="Country of residency">
-                </div>
-                <div>
-                  <input type="text" name="website" placeholder="Website">
+
+                <div class="triple">
+                  <div>
+                    <span>Country of residency</span>
+                    <input type="text" name="country" placeholder="Country of residency">
+                  </div>
+
+                  <div>
+                    <span>Website</span>
+                    <input type="text" name="website" placeholder="Website">
+                  </div>
+
+                  <div>
+                    <span>CV</span>
+                    <input type="text" name="cv" placeholder="CV">
+                  </div>
                 </div>
 
-                <div>
+                <div class="double">
                   <div class="select">
                     <input id="select-input" type="hidden" name="select" value="select month">
 
@@ -100,16 +111,14 @@
                       </div>
                     </div>
                   </div>
+
+                  <div>
+                    <span>Please indicate the city the armor plate to be delivered</span>
+                    <input type="text" name="armor"
+                      placeholder="Please indicate the city the armor plate to be delivered">
+                  </div>
                 </div>
 
-                <div>
-                  <input type="text" name="cv" placeholder="CV">
-                </div>
-
-                <div>
-                  <input type="text" name="armor"
-                    placeholder="Please indicate the city the armor plate to be delivered">
-                </div>
               </div>
 
               <div class="form-opencall__button__container">

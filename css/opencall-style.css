@@ -376,6 +376,9 @@ html:not(.v-mobile) .popup-opencall__subtitle a:focus-visible {
 .form-opencall input::placeholder {
   font-size: 0.875rem;
 }
+.form-opencall span {
+  font-size: 0.75rem;
+}
 .form-opencall__inputs {
   display: -ms-grid;
   display: grid;
