@@ -17,6 +17,39 @@ html {
   color: var(--color-text-primary);
 }
 
+@media (min-width: 1200px) {
+  :root {
+    --wrap: 2.604vw;
+    --wrap-1: 18.489vw;
+    --wrap-2: 22.708vw;
+    --wrap-colored: calc(var(--wrap-1) - var(--wrap));
+  }
+}
+@media (min-width: 1200px) and (min-width: 1920px) {
+  :root {
+    --wrap: calc((100vw - 1820px) / 2);
+    --wrap-1: calc((100vw - 1110px) / 2);
+    --wrap-colored: 22.1875rem;
+    --wrap-2: calc((100vw - 1080px) / 2);
+  }
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+  :root {
+    --wrap: 5vw;
+    --wrap-1: 5vw;
+    --wrap-2: 5vw;
+    --wrap-colored: 5vw;
+  }
+}
+@media (max-width: 899px) {
+  :root {
+    --wrap: 5vw;
+    --wrap-1: 5vw;
+    --wrap-2: 5vw;
+    --wrap-colored: 5vw;
+  }
+}
+
 * {
   -webkit-tap-highlight-color: transparent;
 }
